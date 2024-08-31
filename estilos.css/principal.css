@@ -1,0 +1,35 @@
+/*
+.principal {}
+*/
+
+/*
+.label {}
+*/
+
+.input {
+    border: none;
+    border-radius: 4px;
+    
+    padding: 0.75em;
+    margin-bottom: 1em;
+    
+    outline: none;
+
+    font-family: var(--font1);
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--bg-color);
+}
+
+.input::placeholder {
+    font-weight: 400;
+    color: #999999;
+}
+
+.input:hover {
+    background-color: var(--hover-white);
+}
+
+strong {
+    font-weight: 700;
+}

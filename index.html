@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <title>Calculadora IMC</title>
+
+    <link rel="stylesheet" href="./estilos.css/style.css">
+</head>
+
+<body>
+    <main class="principal">
+
+        <!-- CABEÇALHO -->
+        <header class="cabeçalho">
+            <div class="cabeçalho__div1">
+                <h1 class="cabeçalho__titulo">Calculadora IMC</h1>
+            </div>
+        </header>
+
+        <!-- CONTEÚDO -->
+        <section class="conteudo">
+            <div class="conteudo__div1">
+                <form>
+                    <label class="label label-nome" for="nome">Nome*</label>
+                    <input id="nome" class="input input-nome" type="text" id="nome" placeholder="Digite seu nome" required>
+
+                    <label class="label label-altura" for="altura">Altura*</label>
+                    <input id="altura" class="input input-altura" type="text" id="altura" placeholder="Digite sua altura" required>
+
+                    <label class="label label-peso" for="peso">Peso*</label>
+                    <input id="peso" class="input input-peso" type="number" id="peso" placeholder="Digite seu peso" required>
+
+                    <button class="botao" type="button" id="submitButton">Calcular</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="resultado" id="resultado"></section>
+    </main>
+
+    <script src="./main.js" defer></script>
+</body>
+
+</html>

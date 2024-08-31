@@ -1,0 +1,32 @@
+@import url("../estilos.css/reset.css");
+@import url("../estilos.css/principal.css");
+@import url("../estilos.css/cabecalho.css");
+@import url("../estilos.css/conteudo.css");
+@import url("../estilos.css/resultado.css");
+
+:root {
+    --white: #FFFFFF;
+    --black: #000000;
+    --magic-blue: #4000c0;
+    --bg-color: #0c0020;
+
+    --hover-white: #eeeeee;
+    --hover-black: #111111;
+    --hover-magic-blue: #5100f3;
+    --hover-bg-color: #14003d;
+    
+
+    --font1: "Inter";
+}
+
+body {
+    box-sizing: border-box;
+    
+    background-color: var(--bg-color);
+    color: var(--white);
+
+    font-family: var(--font1);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.25em;
+}

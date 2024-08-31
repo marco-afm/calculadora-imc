@@ -1,0 +1,20 @@
+/* Cabeçalho Mobile */
+.cabeçalho {
+    display: flex;
+
+    background-color: var(--magic-blue);
+    border-bottom: 2px solid var(--white);
+}
+
+/* Cabeçalho/Div1 */
+.cabeçalho__div1 {
+    padding: 1em;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.cabeçalho__titulo {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+/* Fim - Cabeçalho Mobile */

@@ -1,0 +1,29 @@
+/* Resultado Mobile */
+.resultado {
+    display: none;
+    flex-direction: column;
+
+    margin: 2em 1em;
+    padding: 1em;
+
+    background-color: var(--magic-blue);
+    border: 2px solid var(--white);
+    border-radius: 8px;
+}
+
+.resultado p {
+    /* font-style: italic; */
+    margin-bottom: 1em;
+}
+
+.resultado span {
+    margin: 0.5em 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-style: italic;
+}
+
+#resetButton {
+    text-decoration: none;
+}
+/* Fim - Resultado Mobile */
